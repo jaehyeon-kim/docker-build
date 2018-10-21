@@ -1,0 +1,8 @@
+requests
+pyjwt
+cryptography
+flask
+flask_restplus
+flask_cors
+gunicorn
+pyodbc
