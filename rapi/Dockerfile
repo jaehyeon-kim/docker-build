@@ -7,3 +7,5 @@ RUN apt-get update \
   && /usr/local/bin/R CMD INSTALL Rserve_1.8-6.tar.gz
 
 RUN R -e 'install.packages(c("data.table", "jsonlite", "logging"))'
+
+RUN useradd -ms /bin/bash api
